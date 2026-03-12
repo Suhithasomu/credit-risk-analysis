@@ -1,0 +1,61 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║       CREDIT RISK PREDICTION MODEL - FINAL REPORT            ║
+╚══════════════════════════════════════════════════════════════╝
+
+DATASET OVERVIEW:
+-----------------
+- Total Records: 30,000
+- Default Rate: 22.12%
+- Features Used: 17
+- Training Set: 24,000 | Test Set: 6,000
+
+MODEL PERFORMANCE:
+------------------
+- Algorithm: Logistic Regression
+- Accuracy: 80.78%
+- Correctly Predicted Defaults: 321
+- Missed Defaults: 1,006
+
+RISK SEGMENTATION:
+------------------
+               Total Customers  Actual Defaults  Default Rate
+Risk_Category                                                
+Low Risk                  4857              710     14.618077
+Medium Risk                913              447     48.959474
+High Risk                  230              170     73.913043
+
+TOP 5 PREDICTIVE FEATURES:
+--------------------------
+  Feature  Importance
+    PAY_0    0.586181
+ MARRIAGE    0.240106
+      SEX    0.181488
+EDUCATION    0.156525
+    PAY_2    0.094327
+
+BUSINESS RECOMMENDATION:
+------------------------
+✅ DEPLOY MODEL - Accuracy of 80.78% is sufficient for:
+   • Credit limit adjustments
+   • Interest rate pricing
+   • Approval/rejection decisions
+   • Customer monitoring priorities
+
+PROJECTED IMPACT:
+-----------------
+- Can identify 24.2% of actual defaults
+- Reduces risk exposure through early identification
+- Enables data-driven lending decisions
+
+FILES GENERATED:
+----------------
+✓ default_distribution.png
+✓ risk_factors_analysis.png
+✓ confusion_matrix.png
+✓ feature_importance.png
+✓ risk_segmentation.png
+✓ credit_risk_report.txt
+
+PROJECT AUTHOR: Suhi | Data Analyst
+TOOLS: Python, Scikit-learn, Pandas, Matplotlib
