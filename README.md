@@ -2,6 +2,10 @@
 
 Predictive model to classify credit card default risk using machine learning, achieving 81% accuracy on 30,000 customer records.
 
+## 🌐 Live Demo
+**Try the interactive web app:** https://credit-risk-analysis-dataanalystproject.streamlit.app/
+
+Enter customer details and get instant risk predictions with business recommendations!
 ## 🎯 Business Problem
 
 Financial institutions lose billions annually due to loan defaults. This project builds a risk assessment model to:
